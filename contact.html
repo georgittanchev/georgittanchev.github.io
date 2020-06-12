@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
       <link rel="icon" type="image/png" href="img/favicon3.png">
-	  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	   <script src="https://www.google.com/recaptcha/api.js"></script>
       <title>Georgi Tanchev`s Website & Portfolio</title>
       <style>
          h6 {text-align: center;}
@@ -74,8 +74,13 @@
                             <textarea class="form-control" id="message" name="theMessage" rows="6" required></textarea>
                         </div>
                         <div class="mx-auto">
-						<div class="g-recaptcha" data-sitekey="66Lc5q6MZAAAAAF65KLUeobpjnzULXZecN1Cnhe9m"></div> <br>
+						<div class="g-recaptcha" data-sitekey="6LfHXKMZAAAAAMsPoHP2c9z1NaolO82Awzp3gtc9"></div> <br>
                          <button type="submit" class="btn btn-dark text-right" value="Send">Submit</button></div>
+						 <script>
+   function onSubmit(token) {
+     document.getElementById("mailpost").submit();
+   }
+ </script>
                     </form>
                 </div>
             </div>
