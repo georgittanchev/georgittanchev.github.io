@@ -10,6 +10,11 @@ html, body {
 }
 
 
+@media screen and (max-width: 576px) {  
+	#bottomColoumn  {
+		padding-top: 20px;
+	}
+  }
 
 .bg-light 
 {
@@ -190,6 +195,7 @@ html, body {
 	top: 0em;
 	left: 0em;
 	margin-bottom: 90px;
+	margin-top: 25px;
   }
 }
 

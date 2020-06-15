@@ -190,6 +190,7 @@ html, body {
 	top: 0em;
 	left: 0em;
 	margin-bottom: 90px;
+	padding-top: 25px;
   }
 }
 
@@ -240,6 +241,12 @@ html, body {
 	background-image: url("img/bg.jpg");
 	height: 115px;
 }
+
+@media screen and (max-width: 576px) {  
+	#bottomColoumn  {
+		padding-top: 20px;
+	}
+  }
 
 #footerOtherPages
 {
