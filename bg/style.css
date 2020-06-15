@@ -1,0 +1,278 @@
+*
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.bg-light 
+{
+	background-color:white!important;
+}
+
+#headerLogo 
+{
+	font-weight: 800;
+	font-size: 36px;
+	
+}
+
+@media screen and (max-width: 350px) {
+  #headerLogo, .navbar-brand {
+    width:100%;
+	
+  }
+}
+
+#theNavigation 
+{
+	-webkit-box-shadow: 0 1px 7px 0px black;
+	-moz-box-shadow: 0 1px 7px 0px black;
+	 box-shadow: 0 1px 7px 0px black;
+}
+
+.navbar-nav 
+{
+	padding-top: 6px;
+	padding-right: 70px;
+	
+}
+
+.pl-6 
+{
+	padding-left: 1.9rem;
+}
+
+
+#afterHeader 
+{
+	background-image: url("img/bg.jpg");
+}
+
+#afterHeader2
+{
+	background-color:white;
+	padding: 20px;
+	min-height: 100%;
+	margin: 0 auto -50px;
+}
+
+#afterHeader2Portfolio
+{
+	background-color:white;
+	padding: 20px;
+}
+
+#title
+{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.push 
+{
+	height: 50px;
+}
+
+
+.push2
+{
+	height: 80px;
+}
+
+
+#titleAfterHeader2
+{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#messageAfterHeader2 
+{
+	color:black;
+	font-size: 14px;
+}
+
+#messageAfterHeader3 
+{
+	color:black;
+	font-size: 14px;
+	padding-top: 25px;
+}
+
+#welcomeMessage 
+{
+	color:white;
+	font-size: 14px;
+}
+
+#skillsTitle 
+{
+	font-size: 14px;
+	color: grey;
+	font-weight: 700;
+}
+
+#skillsTitle2
+{
+	font-size: 14px;
+	color: grey;
+	font-weight: 700;
+	padding-top: 25px;
+}
+
+#skills 
+{
+	font-size: 12px;
+	margin: 0;
+    padding-top: 3px;
+	padding-bottom: 1px;
+}
+
+#socialIcons 
+{
+  width: 15px;
+  height: 15px;
+}
+
+.bg-info
+{
+	background-color: black!important;
+}
+
+@media screen and (max-width:1023px) {  
+  #socialIcons  {
+    display: none;
+  }
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) * - These are the image containers for the social icons */
+.column {
+  float: left;
+  width: 2%;
+  padding-left: 10px;
+}
+
+/* Clear floats after image containers for the social icons*/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  padding: 15px; /* Some padding */
+  font-size: 14px;
+}
+
+.mypic
+{
+	position:absolute;
+	top: 25em;
+	left: 70em
+}
+@media screen and (max-width:1024px) {  
+  .mypic  {
+    position:relative;
+	top: 0em;
+	left: 0em;
+	margin-bottom: 90px;
+  }
+}
+
+@media screen and (width:1440px) {  
+  .mypic  {
+   	position:absolute;
+	top: 25em;
+	left: 62em
+  }
+}
+
+@media screen and (width:1280px) {  
+  .mypic  {
+   	position:absolute;
+	top: 30em;
+	left: 55em
+  }
+}
+
+@media screen and (width:1366px) {  
+  .mypic  {
+   	position:absolute;
+	top: 30em;
+	left: 60em
+  }
+}
+
+@media screen and (width:1920px) {  
+  .mypic  {
+   	position:absolute;
+	top: 30em;
+	left: 85em
+  }
+}
+
+
+
+
+#languages 
+{
+	position: absolute;
+	right: 25px;
+}
+
+
+#footer
+{
+	background-image: url("img/bg.jpg");
+	height: 115px;
+}
+
+#footerOtherPages
+{
+	background-image: url("img/bg.jpg");
+	height: 100px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: transform .2s; /* Animation */
+
+}
+
+.thumbnail 
+{
+	width: 250px;
+	height: 250px;
+}
+
+.thumb:hover{
+ transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
