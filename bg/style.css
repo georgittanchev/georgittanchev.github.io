@@ -181,7 +181,7 @@ html, body {
 .mypic
 {
 	position:absolute;
-	top: 25em;
+	top: 20em;
 	left: 70em
 }
 @media screen and (max-width:1024px) {  
