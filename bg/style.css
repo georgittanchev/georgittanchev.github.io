@@ -154,14 +154,14 @@ html, body {
   }
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) * - These are the image containers for the social icons */
+
 .column {
   float: left;
   width: 2%;
   padding-left: 10px;
 }
 
-/* Clear floats after image containers for the social icons*/
+
 .row::after {
   content: "";
   clear: both;
@@ -169,12 +169,12 @@ html, body {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  padding: 15px; /* Some padding */
+  display: none; 
+  position: fixed; 
+  bottom: 30px; 
+  right: 30px; 
+  z-index: 99; 
+  padding: 15px; 
   font-size: 14px;
 }
 
@@ -185,14 +185,14 @@ html, body {
 	left: 70em
 }
 @media screen and (max-width:1024px) {  
-	.mypic  {
-	  position:relative;
-	  top: 0em;
-	  left: 0em;
-	  margin-bottom: 90px;
-	  margin-top: 25px;
-	}
+  .mypic  {
+    position:relative;
+	top: 0em;
+	left: 0em;
+	margin-bottom: 90px;
+	margin-top: 25px;
   }
+}
 
 @media screen and (width:1440px) {  
   .mypic  {
@@ -205,7 +205,7 @@ html, body {
 @media screen and (width:1280px) {  
   .mypic  {
    	position:absolute;
-	top: 30em;
+	top: 20em;
 	left: 55em
   }
 }
@@ -213,7 +213,7 @@ html, body {
 @media screen and (width:1366px) {  
   .mypic  {
    	position:absolute;
-	top: 30em;
+	top: 20em;
 	left: 60em
   }
 }
@@ -221,7 +221,7 @@ html, body {
 @media screen and (width:1920px) {  
   .mypic  {
    	position:absolute;
-	top: 30em;
+	top: 20em;
 	left: 85em
   }
 }
@@ -270,7 +270,7 @@ html, body {
 .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
 
 }
 
@@ -281,6 +281,6 @@ html, body {
 }
 
 .thumb:hover{
- transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ transform: scale(1.2); 
 }
 
