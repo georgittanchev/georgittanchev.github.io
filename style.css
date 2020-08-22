@@ -200,7 +200,7 @@ html, body {
 @media screen and (width:1440px) {  
   .mypic  {
    	position:absolute;
-	top: 25em;
+	top: 20em;
 	left: 62em
   }
 }
