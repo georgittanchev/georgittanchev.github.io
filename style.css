@@ -68,6 +68,12 @@ html, body {
 	margin: 0 auto -50px;
 }
 
+#textAfterHeader 
+{
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
 #afterHeader2Portfolio
 {
 	background-color:white;
