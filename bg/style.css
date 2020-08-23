@@ -184,6 +184,8 @@ html, body {
 	top: 20em;
 	left: 70em
 }
+
+
 @media screen and (max-width:1024px) {  
   .mypic  {
     position:relative;
@@ -193,6 +195,28 @@ html, body {
 	margin-top: 25px;
   }
 }
+
+@media screen and (width:800px) {  
+	.mypic  {
+	  position:relative;
+	  top: -38em;
+	  left: 0em;
+	  margin-bottom: 90px;
+	  margin-top: 25px;
+	}
+  }
+
+
+
+@media screen and (width:768px) {  
+	.mypic  {
+	  position:relative;
+	  top: -22em;
+	  left: 0em;
+	  margin-bottom: 90px;
+	  margin-top: 25px;
+	}
+  }
 
 @media screen and (width:1440px) {  
   .mypic  {
