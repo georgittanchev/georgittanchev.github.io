@@ -307,3 +307,16 @@ html, body {
 .thumb:hover{
  transform: scale(1.2); 
 }
+
+#headermodal 
+{
+	justify-content: center;
+	align-content: center;
+}
+
+.modal-title 
+{
+	justify-content: center;
+	align-content: center;
+}
+
