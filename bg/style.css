@@ -281,14 +281,14 @@ button:active {
 @media screen and (max-width: 991px) {
   #crazyButton {
     position: relative;
-    right: 37px;
+    right: 57px;
     font-size: 16px;
     padding: 8px 0 0 0;
   }
 }
 #crazyButton {
   position: relative;
-  right: 50px;
+  right: 67px;
   font-size: 16px;
   padding: 15px 0 0 0;
 }
