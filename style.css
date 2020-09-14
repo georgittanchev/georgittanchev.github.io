@@ -7,6 +7,7 @@ body {
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 576px) {
@@ -302,4 +303,135 @@ button:active {
   .row {
     display: block;
   }
+}
+
+.mainSection {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 60vh;
+  align-items: center;
+  align-content: center;
+}
+
+.picture {
+  height: 55vh;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.secondPicture {
+  width: 45vw;
+  height: 100vh;
+}
+
+.picture:hover {
+  height: 60vh;
+}
+
+.leftText {
+  flex: 2;
+}
+
+.rightText {
+  flex: 1;
+}
+
+.leftText2 {
+  flex: 2;
+}
+
+.leftText h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #2f2e41;
+}
+
+.leftText p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2e41;
+}
+
+@media (pointer: coarse) {
+  .leftText h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media (pointer: coarse) {
+  .leftText p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media (pointer: coarse) {
+  .mainSection {
+    display: block;
+    min-height: 60vh;
+    margin-left: 3rem;
+  }
+}
+
+@media (pointer: coarse) {
+  svg {
+    height: 20vh;
+    width: 25vw;
+  }
+}
+
+#Vector_41 {
+  animation: anime 1s infinite linear alternate;
+}
+
+#Vector_42 {
+  animation: anime2 1s infinite linear alternate;
+}
+
+@keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes anime2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
+.secondSection {
+  width: 100%;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.secondSection img {
+  widows: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.secondSection h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.secondSection h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
 }
