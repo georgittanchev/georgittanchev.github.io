@@ -5,7 +5,7 @@
         $name = $_POST['name'];
         $headers = "From: ".$name."<".$email.">";
 
-        mail('justinaiken@gmail.com', "Contact from RRR", $message, $headers);
+        mail('georgittanchev@gmail.com', "Contact from RRR", $message, $headers);
       }
     ?>
 
