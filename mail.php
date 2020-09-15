@@ -1,18 +1,13 @@
 <?php
-if(isset( $_POST['name']))
-$name = $_POST['name'];
-if(isset( $_POST['_replyto']))
-$email = $_POST['_replyto'];
-if(isset( $_POST['theMessage']))
-$message = $_POST['theMessage'];
+      if ($_POST['message']) {
+        $message = $_POST['message'];
+        $email = $_POST['email'];
+        $name = $_POST['name'];
+        $headers = "From: ".$name."<".$email.">";
 
-$content="From: $name \n Email: $email \n Message: $message";
-$recipient = "georgittanchev@gmail.com";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
-
-
-?>
+        mail('justinaiken@gmail.com', "Contact from RRR", $message, $headers);
+      }
+    ?>
 
 <script>
 window.location.replace("http://georgittanchev.github.io/thanks.html");</script>
