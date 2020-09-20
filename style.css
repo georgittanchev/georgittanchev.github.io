@@ -685,7 +685,7 @@ p.description {
     display: flex;
     width: 90%;
     margin: auto;
-    height: 50vh;
+    height: 20vh;
     align-items: center;
     align-content: center;
   }
@@ -701,6 +701,7 @@ p.description {
   .secondSection {
     text-align: center;
     align-self: center;
+    height: 20vh;
   }
 
   .secondSection h1 {
