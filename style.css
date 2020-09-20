@@ -747,6 +747,7 @@ p.description {
     width: 85%;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin: 0 auto;
   }
 
   .serviceOne h1 {
