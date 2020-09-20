@@ -706,7 +706,7 @@ p.description {
   }
 }
 
-@media screen and (width: 1280px) {
+@media screen and (width: 1360px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -726,7 +726,6 @@ p.description {
 
   .secondSection h1 {
     width: 100%;
-    margin-left: -15px;
   }
 
   #footer {
@@ -736,10 +735,14 @@ p.description {
 
   .text h1,
   .text h2 {
-    width: 80%;
+    width: 75%;
   }
 
   .serviceOne {
-    margin-top: 10px;
+    margin-top: 35px;
+  }
+
+  .thirdSection {
+    height: 65vh;
   }
 }
