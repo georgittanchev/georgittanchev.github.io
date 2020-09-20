@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6,7 +8,27 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100%;
-  margin: 0;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.container {
+  position: relative;
+}
+
+main {
+  position: relative;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+  #bottomColoumn {
+    padding-top: 20px;
+  }
 }
 
 .bg-light {
@@ -49,6 +71,11 @@ body {
   padding: 20px;
   min-height: 100%;
   margin: 0 auto -50px;
+}
+
+#textAfterHeader {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #afterHeader2Portfolio {
@@ -227,20 +254,6 @@ body {
   height: 115px;
 }
 
-@media screen and (max-width: 576px) {
-  #bottomColoumn {
-    padding-top: 20px;
-  }
-}
-
-#footerOtherPages {
-  background-image: url("img/bg.jpg");
-  height: 100px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-}
-
 .btn:focus,
 .btn:active,
 button:focus,
@@ -281,14 +294,14 @@ button:active {
 @media screen and (max-width: 991px) {
   #crazyButton {
     position: relative;
-    right: 57px;
+    right: 37px;
     font-size: 16px;
     padding: 8px 0 0 0;
   }
 }
 #crazyButton {
   position: relative;
-  right: 67px;
+  right: 50px;
   font-size: 16px;
   padding: 15px 0 0 0;
 }
@@ -296,5 +309,535 @@ button:active {
 @media screen and (max-width: 414px) {
   .row {
     display: block;
+  }
+}
+
+.mainSection {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 50vh;
+  align-items: center;
+  align-content: center;
+}
+
+.picture {
+  height: 50vh;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.picture:hover {
+  height: 52vh;
+}
+
+.leftText {
+  flex: 2;
+}
+
+.rightText {
+  flex: 1;
+}
+
+.leftText2 {
+  flex: 2;
+}
+
+.leftText h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #2f2e41;
+}
+
+.leftText p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2e41;
+}
+
+#Vector_41 {
+  animation: anime 1s infinite linear alternate;
+}
+
+#Vector_42 {
+  animation: anime2 1s infinite linear alternate;
+}
+
+@keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes anime2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
+.secondSection {
+  width: 100%;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.secondSection img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.secondSection h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.secondSection h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.thirdSection {
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceOne h1 {
+  background-color: black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: -0.5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 30vw;
+  margin-left: -0.5px;
+  font-size: 28px;
+}
+
+.serviceOne {
+  border: 1px solid black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  width: 30vw;
+}
+
+.serviceLogo {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.servicePrice {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+ul.serviceDescription {
+  list-style-image: url(img/next.png);
+  list-style-position: inside;
+  padding: 0px;
+}
+
+p.price {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+p.additional {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+img.alertimg {
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+p.description {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.enquire {
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  cursor: pointer;
+  --background-color: black;
+  z-index: 1;
+}
+
+.enquire::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  z-index: -1;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.enquire:hover::before,
+.enquire:focus::before {
+  transform: scaleX(1);
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText h1 {
+    font-size: 42px;
+  }
+
+  .rightText {
+    margin-right: -150px;
+  }
+
+  .secondSection h1 {
+    width: 100%;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: -40vh;
+  }
+
+  .text h1,
+  .text h2 {
+    width: 75%;
+  }
+
+  .serviceOne {
+    margin-top: 35px;
+  }
+
+  .thirdSection {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText h1 {
+    font-size: 42px;
+  }
+
+  .rightText {
+    margin-right: -150px;
+  }
+
+  .secondSection h1 {
+    width: 100%;
+    margin-left: -15px;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: -40vh;
+  }
+
+  .text h1,
+  .text h2 {
+    width: 80%;
+  }
+
+  .serviceOne {
+    margin-top: 10px;
+  }
+
+  .serviceOne:nth-child(1) {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText {
+    text-align: center;
+  }
+
+  .rightText {
+    display: none;
+  }
+
+  .secondSection {
+    text-align: center;
+    align-self: center;
+  }
+
+  .secondSection h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .laptopImg {
+    display: none;
+  }
+
+  .thirdSection {
+    display: block;
+  }
+
+  .serviceOne {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .serviceOne h1 {
+    width: 100%;
+  }
+
+  #footer {
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 768px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText {
+    text-align: center;
+  }
+
+  .rightText {
+    display: none;
+  }
+
+  .secondSection {
+    text-align: center;
+    align-self: center;
+    height: 50vh;
+  }
+
+  .secondSection h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .laptopImg {
+    display: none;
+  }
+
+  .thirdSection {
+    display: block;
+  }
+
+  .serviceOne {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .serviceOne h1 {
+    width: 100%;
+  }
+
+  #footer {
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .rightText {
+    display: none;
+  }
+
+  .laptopImg {
+    display: none;
+  }
+
+  .thirdSection {
+    display: block;
+  }
+
+  .serviceOne {
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .serviceOne h1 {
+    width: 100%;
+  }
+
+  #footer {
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .leftText h1 {
+    font-size: 20px;
+  }
+  .leftText p {
+    font-size: 10px;
+  }
+  .rightText {
+    display: none;
+  }
+  .laptopImg {
+    display: none;
+  }
+  .text h1 {
+    font-size: 12px;
+  }
+  .text h2 {
+    font-size: 11px;
+  }
+  .thirdSection {
+    display: block;
+  }
+  .serviceOne {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .serviceOne h1 {
+    width: 100%;
+    font-size: 15px;
+  }
+  #footer {
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
