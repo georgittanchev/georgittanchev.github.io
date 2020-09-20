@@ -530,7 +530,7 @@ p.description {
   transform: scaleX(1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width: 1360px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -540,32 +540,117 @@ p.description {
     align-content: center;
   }
 
+  .leftText h1 {
+    font-size: 42px;
+  }
+
   .rightText {
-    display: none;
+    margin-right: -150px;
   }
 
-  .laptopImg {
-    display: none;
-  }
-
-  .thirdSection {
-    display: block;
-  }
-
-  .serviceOne {
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .serviceOne h1 {
+  .secondSection h1 {
     width: 100%;
   }
 
   #footer {
     position: absolute;
-    bottom: -210vh;
+    bottom: -40vh;
+  }
+
+  .text h1,
+  .text h2 {
+    width: 75%;
+  }
+
+  .serviceOne {
+    margin-top: 35px;
+  }
+
+  .thirdSection {
+    height: 65vh;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText h1 {
+    font-size: 42px;
+  }
+
+  .rightText {
+    margin-right: -150px;
+  }
+
+  .secondSection h1 {
+    width: 100%;
+    margin-left: -15px;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: -40vh;
+  }
+
+  .text h1,
+  .text h2 {
+    width: 80%;
+  }
+
+  .serviceOne {
+    margin-top: 10px;
+  }
+
+  .serviceOne:nth-child(1) {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mainSection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  .leftText h1 {
+    font-size: 42px;
+  }
+
+  .rightText {
+    margin-right: -150px;
+  }
+
+  .secondSection h1 {
+    width: 100%;
+    margin-left: -15px;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: -40vh;
+  }
+
+  .serviceOne h1 {
+    font-size: 26px;
+  }
+
+  .serviceOne {
+    margin-top: 10px;
+  }
+
+  .serviceOne:nth-child(1) {
+    margin-top: -10px;
   }
 }
 
@@ -623,7 +708,7 @@ p.description {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 720px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -633,116 +718,30 @@ p.description {
     align-content: center;
   }
 
-  .leftText h1 {
-    font-size: 42px;
-  }
-
   .rightText {
-    margin-right: -150px;
+    display: none;
   }
 
-  .secondSection h1 {
-    width: 100%;
-    margin-left: -15px;
-  }
-
-  #footer {
-    position: absolute;
-    bottom: -40vh;
-  }
-
-  .serviceOne h1 {
-    font-size: 26px;
-  }
-
-  .serviceOne {
-    margin-top: 10px;
-  }
-
-  .serviceOne:nth-child(1) {
-    margin-top: -10px;
-  }
-}
-
-@media screen and (width: 1024px) {
-  .mainSection {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    height: 50vh;
-    align-items: center;
-    align-content: center;
-  }
-
-  .leftText h1 {
-    font-size: 42px;
-  }
-
-  .rightText {
-    margin-right: -150px;
-  }
-
-  .secondSection h1 {
-    width: 100%;
-    margin-left: -15px;
-  }
-
-  #footer {
-    position: absolute;
-    bottom: -40vh;
-  }
-
-  .text h1,
-  .text h2 {
-    width: 80%;
-  }
-
-  .serviceOne {
-    margin-top: 10px;
-  }
-
-  .serviceOne:nth-child(1) {
-    margin-top: -10px;
-  }
-}
-
-@media screen and (width: 1360px) {
-  .mainSection {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    height: 50vh;
-    align-items: center;
-    align-content: center;
-  }
-
-  .leftText h1 {
-    font-size: 42px;
-  }
-
-  .rightText {
-    margin-right: -150px;
-  }
-
-  .secondSection h1 {
-    width: 100%;
-  }
-
-  #footer {
-    position: absolute;
-    bottom: -40vh;
-  }
-
-  .text h1,
-  .text h2 {
-    width: 75%;
-  }
-
-  .serviceOne {
-    margin-top: 35px;
+  .laptopImg {
+    display: none;
   }
 
   .thirdSection {
-    height: 65vh;
+    display: block;
+  }
+
+  .serviceOne {
+    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .serviceOne h1 {
+    width: 100%;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: -210vh;
   }
 }
