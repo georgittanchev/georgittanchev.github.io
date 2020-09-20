@@ -623,17 +623,31 @@ p.description {
     align-content: center;
   }
 
-  .leftText h1 {
-    font-size: 42px;
+  .leftText {
+    text-align: center;
   }
 
   .rightText {
-    margin-right: -150px;
+    display: none;
+  }
+
+  .secondSection {
+    text-align: center;
+    align-self: center;
   }
 
   .secondSection h1 {
-    width: 100%;
-    margin-left: -15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .laptopImg {
+    display: none;
+  }
+
+  .thirdSection {
+    display: block;
   }
 
   .serviceOne {
