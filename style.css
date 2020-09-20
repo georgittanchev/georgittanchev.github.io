@@ -636,21 +636,33 @@ p.description {
     margin-left: -15px;
   }
 
-  #footer {
-    position: absolute;
-    bottom: -40vh;
+  .serviceOne {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .serviceOne h1 {
-    font-size: 26px;
+    width: 100%;
   }
 
-  .serviceOne {
-    margin-top: 10px;
+  #footer {
+    display: none;
   }
-
-  .serviceOne:nth-child(1) {
-    margin-top: -10px;
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
