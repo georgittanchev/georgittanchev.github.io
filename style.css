@@ -664,7 +664,7 @@ p.description {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width: 1024px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -692,8 +692,9 @@ p.description {
     bottom: -40vh;
   }
 
-  .serviceOne h1 {
-    font-size: 26px;
+  .text h1,
+  .text h2 {
+    width: 80%;
   }
 
   .serviceOne {
@@ -705,7 +706,7 @@ p.description {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (width: 1280px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -730,11 +731,15 @@ p.description {
 
   #footer {
     position: absolute;
-    bottom: -20vh;
+    bottom: -40vh;
   }
 
   .text h1,
   .text h2 {
     width: 80%;
+  }
+
+  .serviceOne {
+    margin-top: 10px;
   }
 }
