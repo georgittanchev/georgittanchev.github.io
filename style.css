@@ -654,7 +654,7 @@ p.description {
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 768px) {
+@media screen and (min-width: 721px) and (max-width: 768px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -703,12 +703,25 @@ p.description {
   }
 
   #footer {
-    position: absolute;
-    bottom: -210vh;
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 720px) {
+@media screen and (min-width: 481px) and (max-width: 720px) {
   .mainSection {
     display: flex;
     width: 90%;
@@ -741,12 +754,25 @@ p.description {
   }
 
   #footer {
-    position: absolute;
-    bottom: -210vh;
+    display: none;
+  }
+  .leftText {
+    text-align: center;
+  }
+  .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 424px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .leftText h1 {
     font-size: 20px;
   }
