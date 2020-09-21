@@ -669,6 +669,17 @@ p.description {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  #container::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 721px) and (max-width: 768px) {
@@ -737,6 +748,17 @@ p.description {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  #container::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 720px) {
@@ -789,6 +811,17 @@ p.description {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  #container::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
@@ -830,6 +863,18 @@ p.description {
     text-align: center;
   }
   .thirdSection::after {
+    content: "Copyright 2020 Georgi Tanchev";
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #container::after {
     content: "Copyright 2020 Georgi Tanchev";
     background: black;
     color: white;
