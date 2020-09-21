@@ -590,8 +590,7 @@ p.description {
   }
 
   #footer {
-    position: absolute;
-    bottom: -40vh;
+    display: none;
   }
 
   .text h1,
