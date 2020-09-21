@@ -466,6 +466,10 @@ ul.serviceDescription {
   padding: 0px;
 }
 
+ul.serviceDescription > li {
+  padding-top: 5px;
+}
+
 p.price {
   margin-top: 0px;
   margin-bottom: 0px;
